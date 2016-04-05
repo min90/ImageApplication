@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6AA0FA8D-79EA-463B-B582-43013B671EF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1C2D3951-662F-4B36-BE9F-2C4608A650A9}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ImageApplication", "src\ImageApplication\ImageApplication.xproj", "{D6CAA855-EFD0-44E6-AA3D-C0465529FD64}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6CAA855-EFD0-44E6-AA3D-C0465529FD64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6CAA855-EFD0-44E6-AA3D-C0465529FD64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6CAA855-EFD0-44E6-AA3D-C0465529FD64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6CAA855-EFD0-44E6-AA3D-C0465529FD64}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D6CAA855-EFD0-44E6-AA3D-C0465529FD64} = {6AA0FA8D-79EA-463B-B582-43013B671EF3}
+	EndGlobalSection
+EndGlobal
