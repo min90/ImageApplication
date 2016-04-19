@@ -13,6 +13,5 @@ namespace ImageApplication.Models
         public string Role { get; set; }
         public DateTime MemberSince { get; set; }
         public DateTime LastLogin { get; set; }
-       
     }
 }
