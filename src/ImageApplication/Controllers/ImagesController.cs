@@ -8,7 +8,7 @@ using Microsoft.AspNet.Mvc;
 
 namespace ImageApplication.Controllers
 {
-    public class UserController : Controller
+    public class ImagesController : Controller
     {
         // GET: /<controller>/
         public IActionResult Index()
