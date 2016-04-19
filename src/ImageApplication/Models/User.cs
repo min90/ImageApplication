@@ -7,8 +7,12 @@ namespace ImageApplication.Models
 {
     public class User
     {
-        public int UserID { get; set; }
-        public string UserName { get; set; }
+        public int Id { get; set; }
+        public string Username { get; set; }
+        public string PasswordDigest { get; set; }
+        public string Role { get; set; }
+        public DateTime MemberSince { get; set; }
+        public DateTime LastLogin { get; set; }
        
     }
 }
